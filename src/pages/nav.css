@@ -1,0 +1,9 @@
+.af {
+    height: 52px;
+    transition: height 0.15s ease-in-out;
+}
+
+.bf {
+    height: 44px;
+    transition: height 0.15s ease-in-out;
+}
