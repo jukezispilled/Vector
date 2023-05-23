@@ -9,7 +9,7 @@ export default function About() {
                     <div className="w-full md:w-[55%]">
                         <div className="h-[300px] md:h-[450px] w-full rounded-lg bg-cover" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/wpb.jpg'})`}}>
                         </div>
-                        <div className="mt-7 md:mt-10 text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl font-bold flex justify-start md:justify-center text-blue-800">HEAVY BRIDGE AND HIGHWAY</div>
+                        <div className="mt-7 md:mt-10 text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl font-bold flex justify-start md:justify-center text-[#194A99]">HEAVY BRIDGE AND HIGHWAY</div>
                     </div>
                     <div className="text-l w-full md:w-[45%] font-semibold">
                         <p className="mb-7">Vector Construction, co-founded by Richard F. Anderson in 1963, is a family owned company specializing in heavy highway construction.</p>

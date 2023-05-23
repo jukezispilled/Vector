@@ -87,11 +87,11 @@ export default function Navbar() {
                                 <li className="text-xl transition ease-in-out duration-500 hover:bg-slate-200 p-2 rounded-lg font-semibold">
                                     <a href="contact">Contact</a>
                                 </li>
-                                <li className="text-xl transition ease-in-out duration-500 bg-slate-200 hover:bg-slate-300 p-2 rounded-lg font-semibold">
+                                <li>
                                 {isAuthenticated ? (
-                                    <button onClick={() => logout()}>Logout</button>
+                                    <button className="bg-red-300 hover:bg-red-400 text-xl transition ease-in-out duration-500 p-2 rounded-lg font-semibold" onClick={() => logout()}>Logout</button>
                                 ) : (
-                                    <button onClick={() => loginWithRedirect()}>Login</button>
+                                    <button className="bg-slate-200 hover:bg-slate-300 text-xl transition ease-in-out duration-500 p-2 rounded-lg font-semibold" onClick={() => loginWithRedirect()}>Login</button>
                                 )}
                                 </li>
                             </ul>
