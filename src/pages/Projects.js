@@ -4,7 +4,7 @@ export default function Projects() {
     return(
         <div className="h-min px-[18.5%] pt-[18%] md:pt-[10%] bg-cover bg-[#f9f9f9] bg-fixed pb-[14%]">
             <div className="text-4xl font-bold my-7">Projects</div>
-            <div className="xl:bg-slate-100 h-min rounded-xl xl:shadow-xl md:p-10">
+            <div className="xl:bg-slate-100 h-min rounded-xl xl:shadow-md md:p-10">
                 <div className="mb-7 border-solid border-b-2 border-slate-300">   
                     <div className="text-3xl font-semibold">Onondaga Pedestrian Bridge</div>
                     <div className="py-5 flex space-x-20 h-[300px]">

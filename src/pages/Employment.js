@@ -21,7 +21,7 @@ const Employment = () => {
   return (
     <><div className="bg-cover bg-[#f9f9f9] bg-fixed pb-[10%]"><div className="px-[10%] mx-[8.5%] pt-[18%] md:pt-[10%] text-xl">
         <div className="text-4xl font-bold my-7">Employment</div>
-        <div className="xl:bg-slate-100 h-min rounded-xl xl:shadow-xl xl:p-10">
+        <div className="xl:bg-slate-100 h-min rounded-xl xl:shadow-md xl:p-10">
                 <div className="text-2xl font-semibold mb-3">Job Description:</div>
                 We are seeking experienced and responsible construction personnel to join our heavy highway construction company. We want to offer you competitive pay, a generous benefits package and opportunities for advancement. Join our team and learn how fulfilling it is to be rewarded appropriately for your efforts while you develop your skills and learn the newest construction techniques in a fast-paced environment.
                 <div className="text-2xl font-semibold my-3">Responsibilities:</div>

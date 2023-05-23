@@ -26,7 +26,7 @@ export default function Navbar() {
 
     return(
         <div className="w-screen fixed top-0 z-10">  
-            <nav className="mx-10 my-4 p-2 bg-[#ffffff] rounded-lg">
+            <nav className="mx-10 my-4 p-2 bg-[#ffffff] rounded-lg shadow-sm">
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">

@@ -19,7 +19,7 @@ const Contact = () => {
     <div className="h-min bg-cover bg-[#f9f9f9] bg-fixed pb-[10%]">
         <div className="px-[10%] mx-[8.5%] pt-[18%] md:pt-[10%]">
             <div className="text-4xl font-bold my-7">Contact</div>
-            <div className="xl:bg-slate-100 h-min xl:shadow-xl rounded-xl xl:p-10 pb-[10%]">
+            <div className="xl:bg-slate-100 h-min xl:shadow-md rounded-xl xl:p-10 pb-[10%]">
                 <div>
                     <Formik
                         initialValues={{
