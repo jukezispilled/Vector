@@ -19,7 +19,7 @@ const Employment = () => {
   });
 
   return (
-    <><div className="bg-cover bg-fixed pb-[10%]" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/arr1.png'})` }}><div className="px-[10%] mx-[8.5%] pt-[18%] md:pt-[10%] text-xl">
+    <><div className="bg-cover bg-fixed pb-[14%]"><div className="px-[10%] mx-[8.5%] pt-[18%] md:pt-[10%] text-xl">
         <div className="text-4xl font-bold my-7">Employment</div>
         <div className="xl:bg-slate-100 h-min rounded-xl xl:shadow-xl xl:p-10">
                 <div className="text-2xl font-semibold mb-3">Job Description:</div>

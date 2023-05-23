@@ -2,14 +2,14 @@ import React from "react";
 
 export default function About() {
     return(
-        <div className="h-min px-[18.5%] pt-[18%] md:pt-[10%] bg-cover bg-fixed pb-[10%]" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/arr1.png'})` }}>
+        <div className="h-screen px-[18.5%] pt-[18%] md:pt-[10%] bg-cover bg-fixed pb-[10%]">
             <div className="text-4xl font-bold my-7">About</div>
             <div className="xl:bg-slate-100 h-max xl:shadow-xl rounded-xl xl:p-10">
                 <div className="md:flex space-y-5 md:space-y-0 md:space-x-20">
                     <div className="w-full md:w-[55%]">
                         <div className="h-[300px] md:h-[450px] w-full rounded-lg bg-cover" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/wpb.jpg'})`}}>
                         </div>
-                        <div className="mt-7 md:mt-10 text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl font-bold flex justify-start md:justify-center text-blue-800">HEAVY / BRIDGE / HIGHWAY</div>
+                        <div className="mt-7 md:mt-10 text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl font-bold flex justify-start md:justify-center text-blue-800">HEAVY BRIDGE AND HIGHWAY</div>
                     </div>
                     <div className="text-l w-full md:w-[45%] font-semibold">
                         <p className="mb-7">Vector Construction, co-founded by Richard F. Anderson in 1963, is a family owned company specializing in heavy highway construction.</p>

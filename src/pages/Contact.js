@@ -16,7 +16,7 @@ const Contact = () => {
   });
 
   return (
-    <div className="h-min bg-cover bg-fixed pb-[10%]" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/arr1.png'})` }}>
+    <div className="h-screen bg-cover bg-fixed pb-[10%]">
         <div className="px-[10%] mx-[8.5%] pt-[18%] md:pt-[10%]">
             <div className="text-4xl font-bold my-7">Contact</div>
             <div className="xl:bg-slate-100 h-min xl:shadow-xl rounded-xl xl:p-10">
@@ -71,7 +71,7 @@ const Contact = () => {
                                             Message*
                                         </label>
                                         <Field
-                                            className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                            className="bg-gray-200 appearance-none h-24 border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                             name="message"
                                             placeholder="Message*"
                                             component="textarea" 

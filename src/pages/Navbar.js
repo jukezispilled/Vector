@@ -83,6 +83,9 @@ export default function Navbar() {
                             <li className="text-xl transition ease-in-out duration-200 hover:bg-slate-200 p-2 rounded-lg font-semibold">
                                 <a href="contact">Contact</a>
                             </li>
+                            <li className="text-xl transition ease-in-out duration-200 hover:bg-slate-200 p-2 rounded-lg font-semibold">
+                                <a href="login">Login</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -19,8 +19,8 @@ export default function Footer() {
                         <p>Copyright • Vector Construction Company • 2023</p>
                     </div>
                 </div>
-                <div className="text-white text-l">
-                    (Employee Portal Link)
+                <div className="text-white text-l underline">
+                    <a href="login">Login</a>
                 </div>
             </div>
         </footer>
