@@ -19,27 +19,27 @@ const Employment = () => {
   });
 
   return (
-    <><div className="bg-cover bg-[#fafafa] bg-fixed pb-[10%]"><div className="px-[10%] mx-[8.5%] pt-[18%] md:pt-[10%] text-xl">
+    <><div className="bg-cover bg-[#f9f9f9] bg-fixed pb-[10%]"><div className="px-[10%] mx-[8.5%] pt-[18%] md:pt-[10%] text-xl">
         <div className="text-4xl font-bold my-7">Employment</div>
         <div className="xl:bg-slate-100 h-min rounded-xl xl:shadow-xl xl:p-10">
                 <div className="text-2xl font-semibold mb-3">Job Description:</div>
                 We are seeking experienced and responsible construction personnel to join our heavy highway construction company. We want to offer you competitive pay, a generous benefits package and opportunities for advancement. Join our team and learn how fulfilling it is to be rewarded appropriately for your efforts while you develop your skills and learn the newest construction techniques in a fast-paced environment.
                 <div className="text-2xl font-semibold my-3">Responsibilities:</div>
                 <div className="flex flex-col space-y-0">
-                    <p>⮕&nbsp;Report each day on time and ready to work.</p>
-                    <p>⮕&nbsp;Have reliable transportation to work site.</p>
-                    <p>⮕&nbsp;Be able to perform construction tasks that involve strenuous manual labor.</p>
-                    <p>⮕&nbsp;Ability to take and follow directions from superiors.</p>
-                    <p>⮕&nbsp;Attention to Safety Rules and Regulations.</p>
-                    <p>⮕&nbsp;Must be willing to travel to locations within NY.</p>
-                    <p>⮕&nbsp;Must be willing to work overtime, weekends and nights when required.</p>
-                    <p>⮕&nbsp;Must be able to work as a team member.</p>
+                    <p>➪&nbsp;Report each day on time and ready to work.</p>
+                    <p>➪&nbsp;Have reliable transportation to work site.</p>
+                    <p>➪&nbsp;Be able to perform construction tasks that involve strenuous manual labor.</p>
+                    <p>➪&nbsp;Ability to take and follow directions from superiors.</p>
+                    <p>➪&nbsp;Attention to Safety Rules and Regulations.</p>
+                    <p>➪&nbsp;Must be willing to travel to locations within NY.</p>
+                    <p>➪&nbsp;Must be willing to work overtime, weekends and nights when required.</p>
+                    <p>➪&nbsp;Must be able to work as a team member.</p>
                 </div>
                 <div className="text-2xl font-semibold my-3">Qualifications:</div>
                 <div className="flex flex-col space-y-0">
-                    <p>⮕&nbsp;Must have valid driver’s license.</p>
-                    <p>⮕&nbsp;One or more years of experience in construction.</p>
-                    <p>⮕&nbsp;Must pass a pre‐hire drug test.</p>
+                    <p>➪&nbsp;Must have valid driver’s license.</p>
+                    <p>➪&nbsp;One or more years of experience in construction.</p>
+                    <p>➪&nbsp;Must pass a pre‐hire drug test.</p>
                 </div>
                 <div className="text-2xl font-bold mt-7">Vector Construction is an Equal Opportunity Employer.</div>
             <div className="h-min">
