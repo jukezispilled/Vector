@@ -19,7 +19,7 @@ const Employment = () => {
   });
 
   return (
-    <><div className="bg-cover bg-fixed pb-[14%]"><div className="px-[10%] mx-[8.5%] pt-[18%] md:pt-[10%] text-xl">
+    <><div className="bg-cover bg-[#fafafa] bg-fixed pb-[10%]"><div className="px-[10%] mx-[8.5%] pt-[18%] md:pt-[10%] text-xl">
         <div className="text-4xl font-bold my-7">Employment</div>
         <div className="xl:bg-slate-100 h-min rounded-xl xl:shadow-xl xl:p-10">
                 <div className="text-2xl font-semibold mb-3">Job Description:</div>
@@ -122,7 +122,7 @@ const Employment = () => {
                                         } } />
                                 </div>
                                 <button
-                                    className="bg-slate-300 text-slate-700 border border-slate-400 border-solid border-5 shadow text-lg font-semibold py-2 px-4 rounded-lg hover:bg-blue-300"
+                                    className="bg-slate-300 text-slate-700 border border-slate-400 border-solid border-5 shadow text-lg font-semibold py-2 px-4 rounded-lg transition ease-in duration-200 hover:bg-blue-300"
                                     type="submit"
                                     disabled={isSubmitting}
                                 >

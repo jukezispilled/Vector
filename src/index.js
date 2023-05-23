@@ -12,7 +12,7 @@ root.render(
       domain="dev-fxy2vqxz8ras4kez.us.auth0.com"
       clientId="qDhNOvieJZB5srLUlfpAeI4cNQ4FVIPw"
       authorizationParams={{
-        redirect_uri: "http://localhost:3000/login"
+        redirect_uri: "http://localhost:3000/dashboard"
       }}
     >
       <App />

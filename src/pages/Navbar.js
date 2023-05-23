@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { useAuth0 } from '@auth0/auth0-react';
 import './nav.css';
 
 export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
     const [onScroll, setOnScroll] = useState(false);
+
+    const { loginWithRedirect } = useAuth0();
 
     useEffect(() => {
         // Add an event listener to the window object
@@ -22,7 +25,7 @@ export default function Navbar() {
     }
 
     return(
-        <nav className="fixed top-0 w-full shadow z-10 bg-slate-100">
+        <nav className="fixed top-0 w-full shadow z-10 bg-[#fefefe]">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -68,23 +71,23 @@ export default function Navbar() {
                 <div>
                     <div className={`flex-1 justify-self-center md:block md:mt-0 ${navbar ? "block" : "hidden"}`}>
                         <ul className="items-center justify-center my-5 md:my-0 space-y-8 md:flex md:space-x-3 lg:space-x-6 md:space-y-0">
-                            <li className="text-xl transition ease-in-out duration-200 hover:bg-slate-200 p-2 h-full rounded-lg font-semibold">
+                            <li className="text-xl transition ease-in-out duration-500 hover:bg-slate-200 p-2 h-full rounded-lg font-semibold">
                                 <a href="/services">Services</a>
                             </li>
-                            <li className="text-xl transition ease-in-out duration-200 hover:bg-slate-200 p-2 rounded-lg font-semibold">
+                            <li className="text-xl transition ease-in-out duration-500 hover:bg-slate-200 p-2 rounded-lg font-semibold">
                                 <a href="/projects">Projects</a>
                             </li>
-                            <li className="text-xl transition ease-in-out duration-200 hover:bg-slate-200 p-2 rounded-lg font-semibold">
+                            <li className="text-xl transition ease-in-out duration-500 hover:bg-slate-200 p-2 rounded-lg font-semibold">
                                 <a href="about">About</a>
                             </li>
-                            <li className="text-xl transition ease-in-out duration-200 hover:bg-slate-200 p-2 rounded-lg font-semibold">
+                            <li className="text-xl transition ease-in-out duration-500 hover:bg-slate-200 p-2 rounded-lg font-semibold">
                                 <a href="employment">Employment</a>
                             </li>
-                            <li className="text-xl transition ease-in-out duration-200 hover:bg-slate-200 p-2 rounded-lg font-semibold">
+                            <li className="text-xl transition ease-in-out duration-500 hover:bg-slate-200 p-2 rounded-lg font-semibold">
                                 <a href="contact">Contact</a>
                             </li>
-                            <li className="text-xl transition ease-in-out duration-200 hover:bg-slate-200 p-2 rounded-lg font-semibold">
-                                <a href="login">Login</a>
+                            <li className="text-xl transition ease-in-out duration-500 bg-slate-200 hover:bg-slate-300 p-2 rounded-lg font-semibold">
+                                <button onClick={() => loginWithRedirect()}>Sign-in</button>
                             </li>
                         </ul>
                     </div>
