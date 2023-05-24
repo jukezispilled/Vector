@@ -15,6 +15,7 @@ root.render(
       authorizationParams={{
         redirect_uri: "http://localhost:3000/dashboard"
       }}
+      cacheLocation="localstorage"
       context={AuthContext}
     >
       <App />
