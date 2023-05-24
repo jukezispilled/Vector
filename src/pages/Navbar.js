@@ -27,7 +27,7 @@ export default function Navbar() {
 
     return(
         <div className="w-screen fixed top-0 z-10">  
-            <nav className="mx-10 my-4 p-2 bg-[#f1f1f1] rounded-lg shadow">
+            <nav className={"mx-10 my-4 ${onScroll ? 'p-2':'p-4'} bg-[#f8f8f8] rounded-lg shadow"}>
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">

@@ -2,9 +2,9 @@ import React from "react";
 
 export default function About() {
     return(
-        <div className="h-min px-[18.5%] pt-[18%] md:pt-[10%] bg-cover bg-[#ffffff] bg-fixed pb-[10%]">
+        <div className="h-min px-[18.5%] pt-[22%] md:pt-[8%] bg-cover bg-[#ffffff] bg-fixed pb-[10%]">
             <div className="text-4xl font-bold my-7">About</div>
-            <div className="xl:bg-[#f1f1f1] h-max xl:shadow-md rounded-xl xl:p-10">
+            <div className="xl:bg-[#f6f6f6] h-max xl:shadow-md rounded-xl xl:p-10">
                 <div className="md:flex space-y-5 md:space-y-0 md:space-x-20">
                     <div className="w-full md:w-[55%]">
                         <div className="h-[300px] md:h-[450px] w-full rounded-lg bg-cover" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/wpb.jpg'})`}}>
