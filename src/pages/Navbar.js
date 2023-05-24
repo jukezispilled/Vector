@@ -26,7 +26,7 @@ export default function Navbar() {
 
     return(
         <div className="w-screen fixed top-0 z-10">  
-            <nav className="mx-10 my-4 p-2 bg-[#ffffff] rounded-lg shadow-sm">
+            <nav className="mx-10 my-4 p-2 bg-[#f1f1f1] rounded-lg shadow">
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -72,26 +72,26 @@ export default function Navbar() {
                     <div>
                         <div className={`flex-1 justify-self-center md:block md:mt-0 ${navbar ? "block" : "hidden"}`}>
                             <ul className="items-center justify-center my-5 md:my-0 space-y-8 md:flex md:space-x-3 lg:space-x-6 md:space-y-0">
-                                <li className="text-xl transition ease-in-out duration-500 hover:bg-slate-200 p-2 h-full rounded-lg font-semibold">
+                                <li className="text-xl transition ease-in-out duration-500 hover:bg-white p-2 h-full rounded-lg font-semibold">
                                     <a href="/services">Services</a>
                                 </li>
-                                <li className="text-xl transition ease-in-out duration-500 hover:bg-slate-200 p-2 rounded-lg font-semibold">
+                                <li className="text-xl transition ease-in-out duration-500 hover:bg-white p-2 rounded-lg font-semibold">
                                     <a href="/projects">Projects</a>
                                 </li>
-                                <li className="text-xl transition ease-in-out duration-500 hover:bg-slate-200 p-2 rounded-lg font-semibold">
-                                    <a href="about">About</a>
+                                <li className="text-xl transition ease-in-out duration-500 hover:bg-white p-2 rounded-lg font-semibold">
+                                    <a href="/about">About</a>
                                 </li>
-                                <li className="text-xl transition ease-in-out duration-500 hover:bg-slate-200 p-2 rounded-lg font-semibold">
-                                    <a href="employment">Employment</a>
+                                <li className="text-xl transition ease-in-out duration-500 hover:bg-white p-2 rounded-lg font-semibold">
+                                    <a href="/employment">Employment</a>
                                 </li>
-                                <li className="text-xl transition ease-in-out duration-500 hover:bg-slate-200 p-2 rounded-lg font-semibold">
-                                    <a href="contact">Contact</a>
+                                <li className="text-xl transition ease-in-out duration-500 hover:bg-white p-2 rounded-lg font-semibold">
+                                    <a href="/contact">Contact</a>
                                 </li>
                                 <li>
                                 {isAuthenticated ? (
                                     <button className="bg-red-300 hover:bg-red-400 text-xl transition ease-in-out duration-500 p-2 rounded-lg font-semibold" onClick={() => logout()}>Logout</button>
                                 ) : (
-                                    <button className="bg-slate-200 hover:bg-slate-300 text-xl transition ease-in-out duration-500 p-2 rounded-lg font-semibold" onClick={() => loginWithRedirect()}>Login</button>
+                                    <button className="bg-slate-300 hover:bg-slate-400 text-xl transition ease-in-out duration-500 p-2 rounded-lg font-semibold" onClick={() => loginWithRedirect()}>Login</button>
                                 )}
                                 </li>
                             </ul>

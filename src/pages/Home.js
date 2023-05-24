@@ -28,7 +28,7 @@ export default function Home() {
                     <div className="text-2xl text-blue-200 font-semibold">Building strong foundations for over <span className="inline-block"><AnimatedNumbers includeComma animateToNumber={60} configs={[{ mass: 1, tension: 220, friction: 100 }, { mass: 1, tension: 180, friction: 130 }, { mass: 1, tension: 280, friction: 90 }, { mass: 1, tension: 180, friction: 135 }, { mass: 1, tension: 260, friction: 100 }, { mass: 1, tension: 210, friction: 180 }]}/></span>
                     &nbsp;years</div>
                     <a href="/employment"> 
-                        <button type="button" class="py-3 px-4 mt-3 bg-blue-400 shadow-lg hover:bg-blue-500 hover:text-white focus:ring-indigo-500 focus:ring-offset-indigo-200 w-auto transition ease-in duration-400 text-center text-[#f0efef] text-xl font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg">
+                        <button type="button" class="py-3 px-4 mt-3 bg-blue-400 shadow-lg hover:bg-blue-500 hover:text-white w-auto transition ease-in duration-400 text-center text-[#f0efef] text-xl font-semibold rounded-lg">
                             Join Us
                         </button>
                     </a>

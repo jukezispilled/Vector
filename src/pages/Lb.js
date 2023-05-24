@@ -10,7 +10,7 @@ const Lb = () => {
       {isAuthenticated ? (
         <Dashboard />
       ) : (
-        <div className="h-screen grid content-center space-y-4 bg-[#f9f9f9]">
+        <div className="h-screen grid content-center space-y-4 bg-[#ffffff]">
           <h1 className="flex justify-center text-xl md:text-3xl lg:text-5xl font-semibold">Login to access the Dashboard</h1>
           <div className='flex justify-center'>
             <button onClick={() => loginWithRedirect()} className="bg-slate-200 hover:bg-slate-300 transition duration-200 ease-in p-2 rounded-lg font-semibold md:text-lg lg:text-xl">Login</button>
