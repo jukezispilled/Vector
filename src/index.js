@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Auth0Provider } from "@auth0/auth0-react";
+import { AuthContext } from './pages/authcontext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
       authorizationParams={{
         redirect_uri: "http://localhost:3000/dashboard"
       }}
+      context={AuthContext}
     >
       <App />
     </Auth0Provider>

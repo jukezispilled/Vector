@@ -22,7 +22,7 @@ const Employment = () => {
     <><div className="bg-cover bg-[#ffffff] bg-fixed pb-[10%]"><div className="px-[10%] mx-[8.5%] pt-[18%] md:pt-[10%] text-xl">
         <div className="text-4xl font-bold my-7">Employment</div>
         <div className="xl:bg-[#f1f1f1] h-min rounded-xl xl:shadow-md xl:p-10">
-                <div className="pb-4">Click&nbsp;<a className="font-bold text-blue-500 hover:text-blue-600" href="/vectorapp.pdf" target="_blank" rel="noopener noreferrer">HERE</a>&nbsp;to download the Vector Employment PDF. You can print, complete, and mail or fax to us.</div>
+                <div className="pb-4">Click&nbsp;<a className="font-bold text-blue-500 hover:text-blue-700" href="/vectorapp.pdf" target="_blank" rel="noopener noreferrer">HERE</a>&nbsp;to download the Vector Employment PDF. You can print, complete, and mail or fax to us.</div>
                 <div className="text-2xl font-semibold mb-3">Job Description:</div>
                 We are seeking experienced and responsible construction personnel to join our heavy highway construction company. We want to offer you competitive pay, a generous benefits package and opportunities for advancement. Join our team and learn how fulfilling it is to be rewarded appropriately for your efforts while you develop your skills and learn the newest construction techniques in a fast-paced environment.
                 <div className="text-2xl font-semibold my-3">Responsibilities:</div>

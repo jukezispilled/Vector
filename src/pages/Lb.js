@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Dashboard from './Dashboard';
+import { AuthContext } from './authcontext';
 import { useAuth0 } from '@auth0/auth0-react';
 
 const Lb = () => {
-  const { isAuthenticated, loginWithRedirect } = useAuth0();
+  const { isAuthenticated, loginWithRedirect } = useContext(AuthContext);
 
   return (
     <div>
